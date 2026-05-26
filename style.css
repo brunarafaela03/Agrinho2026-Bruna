@@ -5,10 +5,17 @@
 }
 
 .cabecalho{
-    background-color: rgb(202, 139, 231);
-    display:flex;
+    background-color: rgb(196, 182, 248);/*cor do fundo*/
+    display:flex; /*disposição dos elementos flexíveis*/
     justify-content: space-between;/*justifcar conteudos c/ espacos entre*/
-    align-items: center;/alinhamento vertical dos itens no centro*/
-    height: 100px;/*altura da area do cabeçalho em 100 pixels
+    align-items: center;/*alinhamento vertical dos itens no centro*/
+    height:100px;/*altura da área do cabeçalho em 100 pixels*/
 }
-    .cabecalho
+ul{
+    display: flex; /*flexibilidade dos elementos da lista ul*/
+    justify-content: space-between; /*espaço entre os elementos*/
+}
+.cabecalho-item-lista{
+    padding:15px; /*espaçamento interno de cada item de 15pixels*/
+    list-style-type: none; /*eliminando o ponto antes de cada item*/
+}

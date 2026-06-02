@@ -19,3 +19,13 @@ ul{
     padding:15px; /*espaçamento interno de cada item de 15pixels*/
     list-style-type: none; /*eliminando o ponto antes de cada item*/
 }
+  .conteudo-secao-sustentavel{
+    display:flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding:60px 5%;/*espaço interno de 60pixel e 5%/
+  }
+   .conteudo-sustentavel-titulo{
+    font-size: 3rem;
+    color
+   }

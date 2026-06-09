@@ -23,9 +23,25 @@ ul{
     display:flex;
     align-items: center;
     justify-content:  space-between;
-    padding:60px 5%;/*espaço interno de 60pixel e 5%/
+    padding:60px 5%;/*espaço interno de 60pixel e 5%*/
   }
    .conteudo-sustentavel-titulo{
     font-size: 3rem;
-    color
+    color:aliceblue;
    }
+
+   body {
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+/* Quando o modo escuro estiver ativo, ele inverte todas as cores do body */
+body.dark-mode {
+    background-color: #121212; /* Garante um fundo escuro estável */
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* Como o filtro inverte TUDO, as imagens ficam com cores esquisitas (negativo). 
+   Esta regra desfaz a inversão apenas na imagem para ela continuar normal. */
+body.dark-mode .sustentavel-imagem {
+    filter: invert(1) hue-rotate(180deg);
+}
